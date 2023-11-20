@@ -30,8 +30,8 @@ Download the fine-tuned generation checkpoints through:
 sh download_checkpoint.sh
 ```
 Download the fine-tuned dual flow learning checkpoints through: \
-MedDG at [Dropbox](https://www.dropbox.com/scl/fi/aol4jav6mjb25p2x1sekn/test_meddg.tar.gz?rlkey=6fbr2pz4gia8tmduzbibqlbqj&dl=0) \
-KaMed at [Dropbox](https://www.dropbox.com/scl/fi/m73ri6kit8u6xjc79ol8k/test_kamed.tar.gz?rlkey=p5rqv1okcqzl7jjvrm0m1zhee&dl=0)
+MedDG at Dropbox [link](https://www.dropbox.com/scl/fi/aol4jav6mjb25p2x1sekn/test_meddg.tar.gz?rlkey=6fbr2pz4gia8tmduzbibqlbqj&dl=0) \
+KaMed at Dropbox [link](https://www.dropbox.com/scl/fi/m73ri6kit8u6xjc79ol8k/test_kamed.tar.gz?rlkey=p5rqv1okcqzl7jjvrm0m1zhee&dl=0)
 
 The final directory is as follows:
 ```
