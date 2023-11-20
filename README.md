@@ -27,22 +27,31 @@ sh download_data.sh
 ```
 Download the fine-tuned generation checkpoints through:
 ```
-sh download_checkpoint.sh
+sh download_checkpoints.sh
 ```
 Download the fine-tuned dual flow learning checkpoints through: \
 MedDG at Dropbox [link](https://www.dropbox.com/scl/fi/aol4jav6mjb25p2x1sekn/test_meddg.tar.gz?rlkey=6fbr2pz4gia8tmduzbibqlbqj&dl=0) \
 KaMed at Dropbox [link](https://www.dropbox.com/scl/fi/m73ri6kit8u6xjc79ol8k/test_kamed.tar.gz?rlkey=p5rqv1okcqzl7jjvrm0m1zhee&dl=0)
 
+## Results
+Download the results of dual flow learning and response generation through:
+```
+sh download_results.sh
+```
+
+## Directory
 The final directory is as follows:
 ```
 └── DFMed
     ├── dual_flow
     ├── generation
-    ├── df_results
     ├── data
     ├── images
-    ├── download_checkpoint.sh
+    ├── df_results
+    ├── generation_results
+    ├── download_checkpoints.sh
     ├── download_data.sh
+    ├── download_results.sh
     └── requirements.txt
 ```
 
