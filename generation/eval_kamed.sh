@@ -10,7 +10,7 @@ python main.py \
         --eval_model_path "${output_dir}/models/${train_name}/${checkpoint}" \
         --per_gpu_eval_batch_size 16 \
         --decode_max_length 150 \
-        --act_entity_dir ../df_results/kamed \
+        --act_entity_dir ../results/df_results/kamed \
         --result_save_dir "${output_dir}/results/${train_name}" \
         --k_entity 10 \
         --top_p 0.35 \

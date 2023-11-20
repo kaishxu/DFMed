@@ -10,7 +10,7 @@ python main.py \
         --eval_model_path "${output_dir}/models/${train_name}/${checkpoint}" \
         --per_gpu_eval_batch_size 16 \
         --decode_max_length 150 \
-        --act_entity_dir ../df_results/meddg \
+        --act_entity_dir ../results/df_results/meddg \
         --result_save_dir "${output_dir}/results/${train_name}" \
         --top_k 64 \
         --num_beams 5 \

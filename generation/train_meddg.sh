@@ -5,7 +5,7 @@ python main.py \
         --evaluate_during_training \
         --per_gpu_train_batch_size 4 \
         --output_dir ./train \
-        --act_entity_dir ../df_results/meddg \
+        --act_entity_dir ../results/df_results/meddg \
         --lr 3e-5 \
         --num_train_epochs 10 \
         --for_meddg_160 \
