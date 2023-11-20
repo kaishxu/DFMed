@@ -1,5 +1,5 @@
-# DFMed
-This is the code for ACL 2023 Findings paper: Medical Dialogue Generation via Dual Flow Modeling by Kaishuai Xu, Wenjun Hou, Yi Cheng, Jian Wang, and Wenjie Li.
+# DFMed: Medical Dialogue Generation via Dual Flow Modeling
+This is the code for ACL 2023 Findings paper: [*Medical Dialogue Generation via Dual Flow Modeling*](https://arxiv.org/abs/2305.18109) by Kaishuai Xu, Wenjun Hou, Yi Cheng, Jian Wang, and Wenjie Li.
 
 **DFMed** is a novel medical dialogue generation framework, which models the transitions of medical entities and dialogue acts via step-by-step interweaving.
 
@@ -11,14 +11,14 @@ Please create a new conda env and install the following pytorch version and main
 conda create -n dual_flow python=3.8
 conda activate dual_flow
 
-transformers==4.24.0
-nltk==3.4.1
-rouge==1.0.1
-setuptools==59.5.0
-numpy
-
 pip install torch==1.10.1+cu113 torchvision==0.11.2+cu113 torchaudio==0.10.1 --extra-index-url https://download.pytorch.org/whl/cu113
 ```
+- `transformers==4.24.0`
+- `nltk==3.4.1`
+- `rouge==1.0.1`
+- `setuptools==59.5.0`
+- `numpy`
+
 ## Data and Checkpoints
 Download the data through:
 ```
@@ -29,8 +29,8 @@ Download the fine-tuned generation checkpoints through:
 sh download_checkpoint.sh
 ```
 Download the fine-tuned dual flow learning checkpoints through: \
-MedDG: https://www.dropbox.com/scl/fi/aol4jav6mjb25p2x1sekn/test_meddg.tar.gz?rlkey=6fbr2pz4gia8tmduzbibqlbqj&dl=0 \
-KaMed: https://www.dropbox.com/scl/fi/m73ri6kit8u6xjc79ol8k/test_kamed.tar.gz?rlkey=p5rqv1okcqzl7jjvrm0m1zhee&dl=0
+MedDG at [Dropbox](https://www.dropbox.com/scl/fi/aol4jav6mjb25p2x1sekn/test_meddg.tar.gz?rlkey=6fbr2pz4gia8tmduzbibqlbqj&dl=0) \
+KaMed at [Dropbox](https://www.dropbox.com/scl/fi/m73ri6kit8u6xjc79ol8k/test_kamed.tar.gz?rlkey=p5rqv1okcqzl7jjvrm0m1zhee&dl=0)
 
 The final directory is as follows:
 ```
