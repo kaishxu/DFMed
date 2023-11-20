@@ -1,0 +1,14 @@
+python main.py \
+        --mode train \
+        --data_name kamed \
+        --data_type train \ #choose the division of the dataset
+        --evaluate_during_training \
+        --eval_steps 2500 \
+        --per_gpu_train_batch_size 12 \
+        --entity_update_steps 1 \ #update entity only at the first step
+        --output_dir ./train \ #dir to save log and fine-tuned models
+        --lr 3e-5 \
+        --num_train_epochs 5 \
+        --act_weight 1 \
+        --entity_weight 0.1 \
+        --train_name demo_kamed \ #training name
