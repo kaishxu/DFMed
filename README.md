@@ -19,6 +19,7 @@ pip install torch==1.10.1+cu113 torchvision==0.11.2+cu113 torchaudio==0.10.1 --e
 - `setuptools==59.5.0`
 - `numpy`
 
+Please note that the `nltk` version is important for calculating BLEU.
 ## Data and Checkpoints
 Download the data through:
 ```
@@ -70,7 +71,7 @@ sh train_meddg.sh
 # For the KaMed dataset
 sh train_kamed.sh
 ```
-4. Inference.
+4. Inference. The `df_results` directory contains act and entity predictions of our training.
 ```
 cd generation
 
@@ -80,7 +81,7 @@ sh eval_meddg.sh
 # For the KaMed dataset
 sh eval_kamed.sh
 ```
-5. Calculate metrics.
+5. Calculate metrics. We use the algorithm presented by the official [code](https://github.com/lwgkzl/MedDG/blob/master/MedDG/generation/CY_DataReadandMetric.py) of the MedDG dataset.
 ```
 python metrics.py --hp ./generate.txt --rf ./reference.txt
 ```
