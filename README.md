@@ -21,7 +21,7 @@ pip install torch==1.10.1+cu113 torchvision==0.11.2+cu113 torchaudio==0.10.1 --e
 
 Please note that the `nltk` version is important for calculating BLEU.
 ## Data and Checkpoints
-Download the data through:
+Download the data (including the CMeKG knowledge graph, MedDG dataset, and KaMed dataset) through:
 ```
 sh download_data.sh
 ```
