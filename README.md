@@ -87,7 +87,7 @@ python metrics.py --hp ./generate.txt --rf ./reference.txt
 ```
 ## Cite
 If you use our codes or your research is related to our work, please kindly cite our paper:
-```
+```bibtex
 @inproceedings{xu-etal-2023-medical,
     title = "Medical Dialogue Generation via Dual Flow Modeling",
     author = "Xu, Kaishuai  and
